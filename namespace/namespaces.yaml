@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  creationTimestamp: "2022-08-21T16:25:47Z"
+  labels:
+    kubernetes.io/metadata.name: sys-admin
+  name: sys-admin
+  resourceVersion: "1415143"
+  uid: de95ad10-16b0-4f50-9da2-a493176cfb7c
+spec:
+  finalizers:
+  - kubernetes
+status:
+  phase: Active
