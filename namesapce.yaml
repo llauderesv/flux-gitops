@@ -9,6 +9,11 @@ metadata:
   uid: a588bb43-74ba-49ac-9b9b-4b0d9034cde1
 spec:
   finalizers:
-  - kubernetes
+    - kubernetes
 status:
   phase: Active
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: sys-ops
