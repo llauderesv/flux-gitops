@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  creationTimestamp: "2022-08-21T14:35:14Z"
+  labels:
+    kubernetes.io/metadata.name: software-engineers
+  name: software-engineers
+  resourceVersion: "1400550"
+  uid: a588bb43-74ba-49ac-9b9b-4b0d9034cde1
+spec:
+  finalizers:
+  - kubernetes
+status:
+  phase: Active
