@@ -2,8 +2,8 @@ apiVersion: v1
 kind: Namespace
 metadata:
   name: sys-admin
----
-apiVersion: v1
-kind: Namespace
-metadata:
-  name: devops-team
+# ---
+# apiVersion: v1
+# kind: Namespace
+# metadata:
+#   name: devops-team
